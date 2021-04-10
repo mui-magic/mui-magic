@@ -56,8 +56,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mui-org/material-ui.git",
-    "directory": "packages/material-ui"
+    "url": "git+https://github.com/mui-magic/mui-magic.git",
+    "directory": "core"
   },
   "sideEffects": false,
   "typings": "./index.d.ts",
