@@ -1,0 +1,58 @@
+{
+  "author": {
+    "name": "Material-UI Team"
+  },
+  "bugs": {
+    "url": "https://github.com/mui-org/material-ui/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "@mui-magic/utils": "^4.11.2",
+    "csstype": "^2.5.2",
+    "prop-types": "^15.7.2"
+  },
+  "deprecated": false,
+  "description": "Material-UI System - Design system for Material-UI.",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/material-ui"
+  },
+  "homepage": "https://github.com/mui-org/material-ui/tree/master/packages/material-ui-system",
+  "keywords": [
+    "react",
+    "react-component",
+    "material design",
+    "material-ui",
+    "system"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "module": "./esm/index.js",
+  "name": "@mui-magic/system",
+  "peerDependencies": {
+    "@types/react": "^16.8.6 || ^17.0.0",
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mui-org/material-ui.git",
+    "directory": "packages/material-ui-system"
+  },
+  "sideEffects": false,
+  "typings": "./index.d.ts",
+  "version": "4.11.3"
+}

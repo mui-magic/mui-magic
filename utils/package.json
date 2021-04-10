@@ -1,0 +1,47 @@
+{
+  "author": {
+    "name": "Material-UI Team"
+  },
+  "bugs": {
+    "url": "https://github.com/mui-org/material-ui/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "prop-types": "^15.7.2",
+    "react-is": "^16.8.0 || ^17.0.0"
+  },
+  "deprecated": false,
+  "description": "Material-UI Utils - Utility functions for Material-UI.",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/mui-org/material-ui/tree/master/packages/material-ui-utils",
+  "keywords": [
+    "react",
+    "react-component",
+    "material design",
+    "material-ui",
+    "utils"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "module": "./esm/index.js",
+  "name": "@mui-magic/utils",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mui-org/material-ui.git",
+    "directory": "packages/material-ui-utils"
+  },
+  "sideEffects": false,
+  "typings": "./index.d.ts",
+  "version": "4.11.2"
+}
