@@ -16,7 +16,7 @@ First, design a theme using the MUI Magic dashboard.
 
 Publish your theme and follow the installation instructions.
 
-Your customized Material-UI library will be available as an [npm package](https://www.npmjs.com/package/@mui-magic/core).
+Your customized Material-UI library will be available as an [npm package](https://www.npmjs.com/package/@mui-magic/core). Each revision to your theme will be labeled with an 8 character semantic tag, which should be specified in your installation:
 
 ```sh
 // with npm
