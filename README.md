@@ -2,7 +2,7 @@
 
 <div align="center">
 
-Publish a custom [Material-UI](https://material-ui.com/) theme and import your customized components from '@mui-magic/your-theme' in your [React](https://reactjs.org/) app.
+Use our [Theme Generator](https://google.com/) to publish a custom [Material-UI](https://material-ui.com/) theme and import your customized components from '@mui-magic/your-theme' in your [React](https://reactjs.org/) app.
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mui-org/material-ui/blob/master/LICENSE)
 [![Follow on Twitter](https://img.shields.io/twitter/follow/MaterialUI.svg?label=follow+Material-UI)](https://twitter.com/MaterialUI)
