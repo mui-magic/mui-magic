@@ -14,9 +14,9 @@
 
 First, design a theme using the MUI Magic dashboard.
 
-Publish your theme and follow the installation instructions
+Publish your theme and follow the installation instructions.
 
-Your  is available as an [npm package](https://www.npmjs.com/package/@mui-magic/core).
+Your customized Material-UI library will be available as an [npm package](https://www.npmjs.com/package/@mui-magic/core).
 
 ```sh
 // with npm
@@ -34,7 +34,7 @@ import ReactDOM from 'react-dom';
 import { Button } from '@mui-magic/your-theme';
 
 function App() {
-  return <Button>Hello World</Button>; // This button is styled for you automatically! No ThemeProvider necessary.
+  return <Button>Hello World</Button>; // This button is styled for you automatically! No ThemeProvider required.
 }
 
 ReactDOM.render(<App />, document.querySelector('#app'));
