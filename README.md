@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[React](https://reactjs.org/) components for faster and simpler web development. Build your own design system, or start with [Material Design](https://material.io/design/introduction/).
+Publish a custom [Material-UI](https://material-ui.com/) theme and import your customized components from '@mui-magic/your-theme' in your [React](https://reactjs.org/) app.
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mui-org/material-ui/blob/master/LICENSE)
 [![Follow on Twitter](https://img.shields.io/twitter/follow/MaterialUI.svg?label=follow+Material-UI)](https://twitter.com/MaterialUI)
