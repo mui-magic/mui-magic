@@ -12,11 +12,15 @@
 
 ## Installation
 
-Material-UI is available as an [npm package](https://www.npmjs.com/package/@mui-magic/core).
+First, design a theme using the MUI Magic dashboard.
+
+Publish your theme and follow the installation instructions
+
+Your  is available as an [npm package](https://www.npmjs.com/package/@mui-magic/core).
 
 ```sh
 // with npm
-npm install @mui-magic/core
+npm install @mui-magic/your-theme@f54OdD13
 
 ```
 
@@ -27,25 +31,17 @@ Here is a quick example to get you started, **it's all you need**:
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button from '@mui-magic/core/Button';
+import { Button } from '@mui-magic/your-theme';
 
 function App() {
-  return <Button variant="contained">Hello World</Button>;
+  return <Button>Hello World</Button>; // This button is styled for you automatically! No ThemeProvider necessary.
 }
 
 ReactDOM.render(<App />, document.querySelector('#app'));
 ```
+## How it Works
 
-Yes, it's really all you need to get started as you can see in this live and interactive demo:
-
-[![Edit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/4j7m47vlm4)
-
-## Questions
-
-For _how-to_ questions and other non-issues,
-please use [StackOverflow](https://stackoverflow.com/questions/tagged/material-ui) instead of GitHub issues.
-There is a StackOverflow tag called "material-ui" that you can use to tag your questions.
-
+Your personalized component library will be published to the NPM registry under the @mui-magic scope. It's a clone of @material-ui/core@4.11.3, so you get all the Material-UI bells and whistles without any of the styling headaches!
 ## Examples
 
 Are you looking for an example project to get started?
